@@ -1,5 +1,6 @@
 {
-    "name": "flagstudio/nova-actions-left",
+    "name": "saintsystems/nova-actions-left",
+    "version":"4.0.0",
     "description": "Laravel Nova actions on the left",
     "keywords": [
         "laravel",
@@ -11,13 +12,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Flagstudio\\NovaActionsLeft\\": "src/"
+            "SaintSystems\\Nova\\ActionsLeft\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Flagstudio\\NovaActionsLeft\\NovaActionsLeftServiceProvider"
+                "SaintSystems\\Nova\\ActionsLeft\\NovaActionsLeftServiceProvider"
             ]
         }
     },
