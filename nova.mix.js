@@ -17,7 +17,6 @@ class NovaExtension {
         vue: 'Vue',
         'laravel-nova': 'LaravelNova',
         '@/mixins': 'LaravelNova',
-        '@inertiajs/inertia': 'LaravelNova'
     }
 
     // webpackConfig.resolve.alias = {
